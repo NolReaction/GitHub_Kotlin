@@ -17,7 +17,14 @@ fun main() {
 
     // CHECK EvenOrOdd
     println("\nEvenOrOdd")
-    println("15 is ${EvenOrOdd.evenOrOdd(15)}") // Odd
-    println("20 is ${EvenOrOdd.evenOrOdd(20)}") // Even
+    val oddNum = 15
+    val evenNum = 20
+    println("$oddNum is ${EvenOrOdd.evenOrOdd(oddNum)}") // Odd
+    println("$evenNum is ${EvenOrOdd.evenOrOdd(evenNum)}") // Even
+
+    // CHECK VowelCount
+    println("\nVowelCount")
+    println(VowelCount.getCount("aaaagrgtgre"))
+
 
 }
