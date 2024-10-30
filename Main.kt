@@ -3,8 +3,8 @@ import Codewars.kyu8.*
 
 fun main() {
 
-    // Проверка repeatStr
+    // CHECK repeatStr
     println(StringRepeat.repeatStr(5,"Hi!"))
-    // Проверка FixStringCase
+    // CHECK FixStringCase
     println(FixStringCase.solve("HELlo"))
 }
