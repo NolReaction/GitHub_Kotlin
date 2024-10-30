@@ -15,6 +15,9 @@ fun main() {
     println("\nCHECK CalculateBMI")
     println(CalculateBMI.bmi(55.0, 1.75))
 
-
+    // CHECK EvenOrOdd
+    println("\nEvenOrOdd")
+    println("15 is ${EvenOrOdd.evenOrOdd(15)}") // Odd
+    println("20 is ${EvenOrOdd.evenOrOdd(20)}") // Even
 
 }
