@@ -1,8 +1,10 @@
+import Codewars.kyu7.*
 import Codewars.kyu8.*
 
 fun main() {
 
     // Проверка repeatStr
-    println(repeatStr(5,"Hi!"))
-
+    println(StringRepeat.repeatStr(5,"Hi!"))
+    // Проверка FixStringCase
+    println(FixStringCase.solve("HELlo"))
 }
