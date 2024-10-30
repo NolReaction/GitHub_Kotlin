@@ -26,5 +26,8 @@ fun main() {
     println("\nVowelCount:")
     println(VowelCount.getCount("aaaagrgtgre"))
 
+    // CHECK SumOfPositive - Done
+    println("\nSumOfPositive:")
+    println(SumOfPositive.sum(intArrayOf(1, 10, -42, 24, 55, -1, 23, 0)))
 
 }
