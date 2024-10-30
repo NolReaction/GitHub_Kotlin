@@ -13,3 +13,5 @@ package Codewars.kyu8
 object StringRepeat {
     fun repeatStr(n: Int, str: String): String = str.repeat(n)
 }
+
+// Done
