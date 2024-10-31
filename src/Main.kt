@@ -1,3 +1,4 @@
+import Codewars.kyu6.Stop_gninnipS_My_sdroW
 import Codewars.kyu7.*
 import Codewars.kyu8.*
 
@@ -30,5 +31,12 @@ fun main() {
     println("\nSumOfPositive:")
     val mySumOfArray = intArrayOf(1, 10, -42, 24, 55, -1, 23, 0)
     println(SumOfPositive.sum(mySumOfArray))
+
+    // CHECK Stop_gninnipS_My_sdroW
+    println("\nStop_gninnipS_My_sdroW:")
+    val spinTest1 = "This is a test"
+    val spinTest2 = "This is another test"
+    println(Stop_gninnipS_My_sdroW.spinWords(spinTest1))
+    println(Stop_gninnipS_My_sdroW.spinWords(spinTest2))
 
 }
