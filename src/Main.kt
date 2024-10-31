@@ -1,3 +1,4 @@
+import Codewars.kyu6.PersistentBugger
 import Codewars.kyu6.Stop_gninnipS_My_sdroW
 import Codewars.kyu7.*
 import Codewars.kyu8.*
@@ -38,5 +39,12 @@ fun main() {
     val spinTest2 = "This is another test"
     println(Stop_gninnipS_My_sdroW.spinWords(spinTest1))
     println(Stop_gninnipS_My_sdroW.spinWords(spinTest2))
+
+    // CHECK PersistentBugger
+    println("\nPersistentBugger:")
+    println(PersistentBugger.persistence(39))
+    println(PersistentBugger.persistence(999))
+    println(PersistentBugger.persistence(4))
+
 
 }
