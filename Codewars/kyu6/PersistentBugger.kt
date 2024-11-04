@@ -15,18 +15,18 @@ package Codewars.kyu6
 object PersistentBugger {
 
     fun persistence(num: Int) : Int {
+        var counter = 0
+        var current = num
 
-        var count = 0
-        var currentNum = num
-
-        while (currentNum >= 10) {
-            currentNum = currentNum.toString().map { it.toString().toInt() }.reduce { acc, digit -> acc * digit }
-            count++
+        while (current >= 10) {
+            current = current.toString()
+                .map { it.digitToInt() }
+                .reduce { acc, digit -> acc * digit }
+            counter++
         }
 
-        return count
+        return counter
     }
-
 }
 
 // Done
