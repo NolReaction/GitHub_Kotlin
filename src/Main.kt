@@ -1,3 +1,4 @@
+import Codewars.kyu5.RGB_To_Hex_Conversion
 import Codewars.kyu6.PersistentBugger
 import Codewars.kyu6.Stop_gninnipS_My_sdroW
 import Codewars.kyu7.*
@@ -45,6 +46,20 @@ fun main() {
     println(PersistentBugger.persistence(39))
     println(PersistentBugger.persistence(999))
     println(PersistentBugger.persistence(4))
+
+    // CHECK RGB_To_Hex_Conversion
+    println("\nRGB_To_Hex_Conversion:")
+    println(RGB_To_Hex_Conversion.rgb(255, 255, 255))
+    println(RGB_To_Hex_Conversion.rgb(255, 255, 300))
+    println(RGB_To_Hex_Conversion.rgb(0, 0, 0))
+    println(RGB_To_Hex_Conversion.rgb(148, 0, 211))
+    // CHECK RGB_To_Hex_Conversion VARIANT 2
+    println("\nRGB_To_Hex_Conversion v2:")
+    println(RGB_To_Hex_Conversion.rgb2(255, 255, 255))
+    println(RGB_To_Hex_Conversion.rgb2(255, 255, 300))
+    println(RGB_To_Hex_Conversion.rgb2(0, 0, 0))
+    println(RGB_To_Hex_Conversion.rgb2(148, 0, 211))
+
 
 
 }
