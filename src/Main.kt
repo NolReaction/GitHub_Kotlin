@@ -1,6 +1,5 @@
-import Codewars.kyu5.RGB_To_Hex_Conversion
-import Codewars.kyu6.PersistentBugger
-import Codewars.kyu6.Stop_gninnipS_My_sdroW
+import Codewars.kyu5.*
+import Codewars.kyu6.*
 import Codewars.kyu7.*
 import Codewars.kyu8.*
 
@@ -54,12 +53,37 @@ fun main() {
     println(RGB_To_Hex_Conversion.rgb(0, 0, 0))
     println(RGB_To_Hex_Conversion.rgb(148, 0, 211))
     // CHECK RGB_To_Hex_Conversion VARIANT 2
-    println("\nRGB_To_Hex_Conversion v2:")
+    println("RGB_To_Hex_Conversion v2:")
     println(RGB_To_Hex_Conversion.rgb2(255, 255, 255))
     println(RGB_To_Hex_Conversion.rgb2(255, 255, 300))
     println(RGB_To_Hex_Conversion.rgb2(0, 0, 0))
     println(RGB_To_Hex_Conversion.rgb2(148, 0, 211))
 
+    // CHECK OppositesAttract
+    println("\nOppositesAttract:")
+    println(OppositesAttract.loveFun(2, 1)) // true
+    println(OppositesAttract.loveFun(2, 2)) // false
+
+    // CHECK ShortestWord
+    println("\nShortestWord:")
+    println(ShortestWord.findShort("HELLO6 HI3 GOOD5 A2"))
+    // CHECK ShortestWord VARIANT 2
+    println("ShortestWord v2:")
+    println(ShortestWord.findShort2("HELLO6 HI3 GOOD5 A2"))
+
+    // CHECK RemoveStringSpaces
+    println("\nRemoveStringSpaces:")
+    println(RemoveStringSpaces.noSpace("8aaaaa dddd r     ")) // "8aaaaaddddr"
+
+    // CHECK IfYouCantSleepJustCountSheep
+    println("\nIfYouCantSleepJustCountSheep:")
+    println(IfYouCantSleepJustCountSheep.countingSheep(3))
+    // CHECK IfYouCantSleepJustCountSheep VARIANT 2
+    println("IfYouCantSleepJustCountSheep v2:")
+    println(IfYouCantSleepJustCountSheep.countingSheep2(3))
+    // CHECK IfYouCantSleepJustCountSheep VARIANT 3
+    println("IfYouCantSleepJustCountSheep v3:")
+    println(IfYouCantSleepJustCountSheep.countingSheep3(3))
 
 
 }
