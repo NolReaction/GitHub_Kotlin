@@ -85,5 +85,11 @@ fun main() {
     println("IfYouCantSleepJustCountSheep v3:")
     println(IfYouCantSleepJustCountSheep.countingSheep3(3))
 
+    // CHECK DisemvowelTrolls
+    println("\nDisemvowelTrolls:")
+    println(DisemvowelTrolls.disemvowel("This website is for losers LOL!"))
+    // CHECK DisemvowelTrolls VARIANT 2
+    println("DisemvowelTrolls v2:")
+    println(DisemvowelTrolls.disemvowel2("This website is for losers LOL!"))
 
 }
