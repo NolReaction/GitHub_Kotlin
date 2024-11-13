@@ -10,7 +10,7 @@ package Regex
 
 object R_NumberExtractor {
 
-    // Извлекает все числа из строки, включая отрицательные
+    // Extracts all numbers from the string, including negative numbers
     fun extractNumbers(input: String): String {
         return Regex("-?\\d+").findAll(input).joinToString(" ") { match -> match.value }
     }

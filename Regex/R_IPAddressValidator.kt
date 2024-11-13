@@ -10,7 +10,7 @@ package Regex
 
 object R_IPAddressValidator {
 
-    // Проверяет, является ли строка корректным IPv4-адресом
+    // Checks if the string is a valid IPv4 address
     fun isValidIPv4Address(input: String): Boolean {
         val regex = Regex(
             "^(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\\." +

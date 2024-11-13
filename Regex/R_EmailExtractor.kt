@@ -10,7 +10,7 @@ package Regex
 
 object R_EmailExtractor {
 
-    // Находит все email-адреса в строке
+    // Finds all email addresses in the string
     fun extractEmails(input: String): String {
         return Regex("[\\w.-]+@[\\w.-]+\\.[a-z]{2,}").findAll(input).joinToString(" ") { it.value }
     }

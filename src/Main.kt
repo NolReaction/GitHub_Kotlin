@@ -1,3 +1,5 @@
+package src
+
 import Codewars.kyu5.*
 import Codewars.kyu6.*
 import Codewars.kyu7.*
@@ -8,7 +10,7 @@ fun main() {
 
     // CHECK repeatStr - Done
     println("CHECK repeatStr:")
-    println(StringRepeat.repeatStr(5,"Hi!"))
+    println(StringRepeat.repeatStr(5, "Hi!"))
 
     // CHECK FixStringCase - Done
     println("\nCHECK FixStringCase:")
@@ -22,8 +24,8 @@ fun main() {
     println("\nEvenOrOdd:")
     val oddNum = 15
     val evenNum = 20
-    println("$oddNum is ${EvenOrOdd.evenOrOdd(oddNum)}") // Odd
-    println("$evenNum is ${EvenOrOdd.evenOrOdd(evenNum)}") // Even
+    println("$oddNum is ${EvenOrOdd.evenOrOdd(oddNum)}") // Expected: Odd
+    println("$evenNum is ${EvenOrOdd.evenOrOdd(evenNum)}") // Expected: Even
 
     // CHECK VowelCount - Done
     println("\nVowelCount:")
@@ -62,8 +64,8 @@ fun main() {
 
     // CHECK OppositesAttract
     println("\nOppositesAttract:")
-    println(OppositesAttract.loveFun(2, 1)) // true
-    println(OppositesAttract.loveFun(2, 2)) // false
+    println(OppositesAttract.loveFun(2, 1)) // Expected: true
+    println(OppositesAttract.loveFun(2, 2)) // Expected: false
 
     // CHECK ShortestWord
     println("\nShortestWord:")
@@ -74,7 +76,7 @@ fun main() {
 
     // CHECK RemoveStringSpaces
     println("\nRemoveStringSpaces:")
-    println(RemoveStringSpaces.noSpace("8aaaaa dddd r     ")) // "8aaaaaddddr"
+    println(RemoveStringSpaces.noSpace("8aaaaa dddd r     ")) // Expected: "8aaaaaddddr"
 
     // CHECK IfYouCantSleepJustCountSheep
     println("\nIfYouCantSleepJustCountSheep:")
@@ -95,26 +97,25 @@ fun main() {
 
     // CHECK NumberExtractor
     println("\nNumberExtractor:")
-    println(R_NumberExtractor.extractNumbers("На улице было -10 градусов, а к вечеру стало 5"))  // Ожидаемый результат: "-10 5"
+    println(R_NumberExtractor.extractNumbers("It was -10 degrees, then it reached 5"))  // Expected result: "-10 5"
 
     // CHECK DateValidator
     println("\nDateValidator:")
-    println(R_DateValidator.isValidDateFormat("25.12.2021"))  // Ожидаемый результат: true
-    println(R_DateValidator.isValidDateFormat("31.13.2025"))  // Ожидаемый результат: false
+    println(R_DateValidator.isValidDateFormat("25.12.2021"))  // Expected result: true
+    println(R_DateValidator.isValidDateFormat("31.13.2025"))  // Expected result: false
 
     // CHECK WhitespaceReplacer
     println("\nWhitespaceReplacer:")
-    println(R_WhitespaceReplacer.replaceSpacesWithHyphens("Hello how are you"))  // Ожидаемый результат: "Hello-how-are-you"
+    println(R_WhitespaceReplacer.replaceSpacesWithHyphens("Hello how are you"))  // Expected result: "Hello-how-are-you"
 
     // CHECK EmailExtractor
     println("\nEmailExtractor:")
-    println(R_EmailExtractor.extractEmails("Свяжитесь с нами по email info@company.com или support@help.org"))  // Ожидаемый результат: "info@company.com support@help.org"
+    println(R_EmailExtractor.extractEmails("Contact us at info@company.com or support@help.org"))  // Expected result: "info@company.com support@help.org"
 
     // CHECK IPAddressValidator
     println("\nIPAddressValidator:")
-    println(R_IPAddressValidator.isValidIPv4Address("192.168.1.1"))  // Ожидаемый результат: true
-    println(R_IPAddressValidator.isValidIPv4Address("256.100.50.25"))  // Ожидаемый результат: false
+    println(R_IPAddressValidator.isValidIPv4Address("192.168.1.1"))  // Expected result: true
+    println(R_IPAddressValidator.isValidIPv4Address("256.100.50.25"))  // Expected result: false
 
     //
-
 }

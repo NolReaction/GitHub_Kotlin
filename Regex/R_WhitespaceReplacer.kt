@@ -10,7 +10,7 @@ package Regex
 
 object R_WhitespaceReplacer {
 
-    // Заменяет все пробелы на дефисы
+    // Replaces all spaces with hyphens
     fun replaceSpacesWithHyphens(input: String): String {
         return input.replace(Regex("\\s+"), "-")
     }

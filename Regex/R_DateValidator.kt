@@ -10,7 +10,7 @@ package Regex
 
 object R_DateValidator {
 
-    // ѕровер€ет, €вл€етс€ ли строка датой в формате dd.mm.yyyy
+    // Checks if the string is a date in dd.mm.yyyy format
     fun isValidDateFormat(input: String): Boolean {
         return Regex("([0-2][0-9]|3[01])\\.(0[1-9]|1[0-2])\\.\\d{4}").matches(input)
     }
