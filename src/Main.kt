@@ -2,6 +2,7 @@ import Codewars.kyu5.*
 import Codewars.kyu6.*
 import Codewars.kyu7.*
 import Codewars.kyu8.*
+import Regex.*
 
 fun main() {
 
@@ -91,5 +92,29 @@ fun main() {
     // CHECK DisemvowelTrolls VARIANT 2
     println("DisemvowelTrolls v2:")
     println(DisemvowelTrolls.disemvowel2("This website is for losers LOL!"))
+
+    // CHECK NumberExtractor
+    println("\nNumberExtractor:")
+    println(R_NumberExtractor.extractNumbers("На улице было -10 градусов, а к вечеру стало 5"))  // Ожидаемый результат: "-10 5"
+
+    // CHECK DateValidator
+    println("\nDateValidator:")
+    println(R_DateValidator.isValidDateFormat("25.12.2021"))  // Ожидаемый результат: true
+    println(R_DateValidator.isValidDateFormat("31.13.2025"))  // Ожидаемый результат: false
+
+    // CHECK WhitespaceReplacer
+    println("\nWhitespaceReplacer:")
+    println(R_WhitespaceReplacer.replaceSpacesWithHyphens("Hello how are you"))  // Ожидаемый результат: "Hello-how-are-you"
+
+    // CHECK EmailExtractor
+    println("\nEmailExtractor:")
+    println(R_EmailExtractor.extractEmails("Свяжитесь с нами по email info@company.com или support@help.org"))  // Ожидаемый результат: "info@company.com support@help.org"
+
+    // CHECK IPAddressValidator
+    println("\nIPAddressValidator:")
+    println(R_IPAddressValidator.isValidIPv4Address("192.168.1.1"))  // Ожидаемый результат: true
+    println(R_IPAddressValidator.isValidIPv4Address("256.100.50.25"))  // Ожидаемый результат: false
+
+    //
 
 }
