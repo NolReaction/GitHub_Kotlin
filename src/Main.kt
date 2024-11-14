@@ -134,6 +134,18 @@ fun main() {
     println("\nSumMixedArray:")
     println(SumMixedArray.sum(listOf(1, "100", 600, "76")))
 
-    //
+    // CHECK KeepHydrated - Done
+    println("\nKeepHydrated:")
+    println(KeepHydrated.litres(3.0))
+    println(KeepHydrated.litres(6.7))
+    println(KeepHydrated.litres(11.8))
+
+    // CHECK BeginnerSeries2Clock - Done
+    println(("\nBeginnerSeries2Clock:"))
+    println(BeginnerSeries2Clock.past(0, 1, 1))
+
+    // CHECK
+    println(("\n:"))
+    println()
 
 }
