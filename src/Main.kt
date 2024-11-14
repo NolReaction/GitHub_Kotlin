@@ -123,4 +123,13 @@ fun main() {
     println(DoubleChar.doubleChar("Hello World"))
     println(DoubleChar.doubleChar("1234!_"))
 
+    // CHECK CountOfPositivesSumOfNegatives - Done
+    println("\nCountOfPositivesSumOfNegatives:")
+    val testArray1 = arrayOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15)
+    val testArray2 = emptyArray<Int>()
+    println(CountOfPositivesSumOfNegatives.countPositivesSumNegatives(testArray1).joinToString())
+    println(CountOfPositivesSumOfNegatives.countPositivesSumNegatives(testArray2).joinToString())
+
+    //
+
 }
