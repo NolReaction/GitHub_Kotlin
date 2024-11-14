@@ -130,6 +130,10 @@ fun main() {
     println(CountOfPositivesSumOfNegatives.countPositivesSumNegatives(testArray1).joinToString())
     println(CountOfPositivesSumOfNegatives.countPositivesSumNegatives(testArray2).joinToString())
 
+    // CHECK SumMixedArray - Done
+    println("\nSumMixedArray:")
+    println(SumMixedArray.sum(listOf(1, "100", 600, "76")))
+
     //
 
 }
