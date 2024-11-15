@@ -144,8 +144,16 @@ fun main() {
     println(("\nBeginnerSeries2Clock:"))
     println(BeginnerSeries2Clock.past(0, 1, 1))
 
+    // CHECK GrowthOfAPopulation - Done
+    println(("\nGrowthOfAPopulation:"))
+    println(GrowthOfAPopulation.nbYear(1000, 2.0, 50, 1200))
+    println(GrowthOfAPopulation.nbYear(1500, 5.0, 100, 5000))
+    println(GrowthOfAPopulation.nbYear(1500000, 2.5, 10000, 2000000))
+
+
     // CHECK
     println(("\n:"))
     println()
+
 
 }
