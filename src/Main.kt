@@ -141,18 +141,24 @@ fun main() {
     println(KeepHydrated.litres(11.8))
 
     // CHECK BeginnerSeries2Clock - Done
-    println(("\nBeginnerSeries2Clock:"))
+    println("\nBeginnerSeries2Clock:")
     println(BeginnerSeries2Clock.past(0, 1, 1))
 
     // CHECK GrowthOfAPopulation - Done
-    println(("\nGrowthOfAPopulation:"))
+    println("\nGrowthOfAPopulation:")
     println(GrowthOfAPopulation.nbYear(1000, 2.0, 50, 1200))
     println(GrowthOfAPopulation.nbYear(1500, 5.0, 100, 5000))
     println(GrowthOfAPopulation.nbYear(1500000, 2.5, 10000, 2000000))
 
 
-    // CHECK
-    println(("\n:"))
+    // CHECK SpeedControl - Done
+    println("\nSpeedControl:")
+    val testArray3 = doubleArrayOf(0.0, 0.19, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0, 2.25)
+    println(SpeedControl.gps(15, testArray3))
+    println(SpeedControl.gps2(15, testArray3))
+
+    // CHECK  - nDone
+    println("\n:")
     println()
 
 
