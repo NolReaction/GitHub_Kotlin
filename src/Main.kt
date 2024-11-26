@@ -150,16 +150,22 @@ fun main() {
     println(GrowthOfAPopulation.nbYear(1500, 5.0, 100, 5000))
     println(GrowthOfAPopulation.nbYear(1500000, 2.5, 10000, 2000000))
 
-
     // CHECK SpeedControl - Done
     println("\nSpeedControl:")
     val testArray3 = doubleArrayOf(0.0, 0.19, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0, 2.25)
     println(SpeedControl.gps(15, testArray3))
     println(SpeedControl.gps2(15, testArray3))
 
+    // CHECK  - Done
+    println("\nHelpTheBookseller:")
+    val lstOfArt = arrayOf("ABART 20", "CDXEF 50", "BKWRK 25", "BTSQZ 89", "DRTYM 60")
+    val lstOfCat = arrayOf("A", "B", "C", "W")
+    println(HelpTheBookseller.stockSummary(lstOfArt, lstOfCat))
+
     // CHECK  - nDone
     println("\n:")
-    println()
 
+    // CHECK  - nDone
+    println("\n:")
 
 }
